@@ -8,8 +8,19 @@ div {
 .top-navigation {
     background-color: #fff;
 }
-.top-navigation > .content {
+.top-navigation .content, {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px
 }
+.logo {
+	height: 70px;
+}
+.top-navigation .links {
+	float: right;
+}
+.top-navigation .links li{
+	display:inline-block;
+}
+

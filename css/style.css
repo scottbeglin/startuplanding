@@ -82,3 +82,7 @@ button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;

@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body {
 	background-color: LightGray;
 }
@@ -19,8 +28,21 @@ div {
 }
 .top-navigation .links {
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	margin-top: 25px;
+	letter-spacing: 0.03em;
 }
 .top-navigation .links li{
 	display:inline-block;
+	margin-left: 25px;
 }
-
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
